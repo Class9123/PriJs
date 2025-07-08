@@ -1,0 +1,269 @@
+[
+  {
+  "type": "caurosel",
+  "items": [{
+    "imageUrl": "/static/images/Aot.jpg",
+    "aging": "17+",
+    "tags": ["Action",
+      "Drama",
+      "Shounen"],
+    "watchUrl": "/anime/attack-on-titan-final-season"
+  },
+    {
+      "imageUrl": "/static/images/jjk.jpg",
+      "aging": "17+",
+      "tags": ["Action",
+        "School",
+        "Shounen",
+        "Supernatural"],
+      "watchUrl": "/anime/jujutsu-kaisen-season-2"
+    },
+    {
+      "imageUrl": "/static/images/demonSlayer.jpg",
+      "aging": "17+",
+      "tags": ["Action",
+        "Historical",
+        "Shounen",
+        "Supernatural"],
+      "watchUrl": "/anime/demon-slayer-season-4"
+    },
+    {
+      "imageUrl": "/static/images/spyXfamily.jpg",
+      "aging": "13+",
+      "tags": ["Action",
+        "Comedy",
+        "Shounen"],
+      "watchUrl": "/anime/spy-x-family-season-2"
+    },
+    {
+      "imageUrl": "/static/images/myHeroAcademia.jpg",
+      "aging": "13+",
+      "tags": ["Action",
+        "School",
+        "Shounen"],
+      "watchUrl": "/anime/my-hero-academia-season-2"
+    },
+    {
+      "imageUrl": "/static/images/fireForce.jpg",
+      "aging": "13+",
+      "tags": ["Action",
+        "Fantasy",
+        "Shounen",
+        "Urban Fantasy"],
+      "watchUrl": "/anime/fire-force-season-3"
+    }]
+},
+  {
+    "type": "card",
+    "heading": "Top anime this month",
+    "subheading": "Handpicked selection of trending titles from the ocean of animes",
+    "items": [{
+      "imgUrl": "https://cdn.myanimelist.net/images/anime/1948/120625l.jpg",
+      "name": "Attack on Titan: Final Season",
+      "aging": "17+",
+      "redirectUrl": "/anime/attack-on-titan-final-season"
+    },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1448/147351l.jpg",
+        "name": "Solo Leveling Season 2: Arise from the Shadow",
+        "aging": "17+",
+        "redirectUrl": "/anime/solo-leveling-season-2-arise-from-the-shadow"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1565/142711l.jpg",
+        "name": "Demon Slayer Season 4",
+        "aging": "17+",
+        "redirectUrl": "/anime/demon-slayer-season-4"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1792/138022l.jpg",
+        "name": "Jujutsu Kaisen Season 2",
+        "aging": "17+",
+        "redirectUrl": "/anime/jujutsu-kaisen-season-2"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1141/142503l.jpg",
+        "name": "Naruto",
+        "aging": "13+",
+        "redirectUrl": "/anime/naruto"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/10/78745l.jpg",
+        "name": "My Hero Academia",
+        "aging": "13+",
+        "redirectUrl": "/anime/my-hero-academia"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1664/103275l.jpg",
+        "name": "Fire Force",
+        "aging": "13+",
+        "redirectUrl": "/anime/fire-force"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1426/139388l.jpg",
+        "name": "Spy x Family Code: White",
+        "aging": "13+",
+        "redirectUrl": "/anime/spy-x-family-code-white"
+      }]
+  },
+  {
+    "type": "news",
+    "heading": "Final Season for Attack on Titan ",
+    "detail": "The most waited season of all time for the anime lovers has arrived.",
+    "redirectUrl": "/anime/attack-on-titan-season-2",
+    "imgUrl": "https://cdn.myanimelist.net/images/anime/4/84177l.jpg"
+  },
+  {
+    "type": "card",
+    "heading": "Ani-may all time goat animes",
+    "subheading": "Explore a carefully handpicked list of iconic anime titles that have defined the action and fantasy genres, each chosen for its impact, storytelling, and memorable characters.",
+    "items": [{
+      "imgUrl": "https://cdn.myanimelist.net/images/anime/1565/111305l.jpg",
+      "name": "Naruto Shippuden",
+      "aging": "13+",
+      "redirectUrl": "/anime/naruto-shippuden"
+    },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1121/119044l.jpg",
+        "name": "Jujutsu Kaisen 0",
+        "aging": "17+",
+        "redirectUrl": "/anime/jujutsu-kaisen-0"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1438/141816l.jpg",
+        "name": "Wind Breaker",
+        "aging": "13+",
+        "redirectUrl": "/anime/wind-breaker"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1664/103275l.jpg",
+        "name": "Fire Force",
+        "aging": "13+",
+        "redirectUrl": "/anime/fire-force"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1673/107657l.jpg",
+        "name": "Fire Force Season 2",
+        "aging": "13+",
+        "redirectUrl": "/anime/fire-force-season-2"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/12/85221l.jpg",
+        "name": "My Hero Academia Season 2",
+        "aging": "13+",
+        "redirectUrl": "/anime/my-hero-academia-season-2"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/4/84177l.jpg",
+        "name": "Attack on Titan Season 2",
+        "aging": "17+",
+        "redirectUrl": "/anime/attack-on-titan-season-2"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1765/135099l.jpg",
+        "name": "Demon Slayer Season 3",
+        "aging": "17+",
+        "redirectUrl": "/anime/demon-slayer-season-3"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1792/138022l.jpg",
+        "name": "Jujutsu Kaisen Season 2",
+        "aging": "17+",
+        "redirectUrl": "/anime/jujutsu-kaisen-season-2"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1506/138982l.jpg",
+        "name": "Spy x Family Season 2",
+        "aging": "13+",
+        "redirectUrl": "/anime/spy-x-family-season-2"
+      }]
+  },
+  {
+    "type": "news",
+    "heading": "Fire Force Season 3 Update",
+    "detail": "After his confrontation in the Nether with his younger brother Shou, Shinra Kusakabe's resolve to become a hero that saves lives from the flame terror strengthens.",
+    "redirectUrl": "/anime/fire-force-season-3",
+    "imgUrl": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2025/03/custom-image-of-leonardo-burns-fire-force-season-3-poster-shinra.jpg",
+    "redirectText": "Start watching now "
+  },
+  {
+    "type": "card",
+    "heading": "Legendary Anime Card Collection",
+    "subheading": "Dive into a legendary lineup of anime masterpieces crafted into collectible-style cards. These fan-favorite series deliver action, fantasy, and unforgettable adventures.",
+    "items": [{
+      "imgUrl": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg",
+      "name": "Fire Force Season 3",
+      "aging": "13+",
+      "redirectUrl": "/anime/fire-force-season-3"
+    },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1866/148300l.jpg",
+        "name": "Wind Breaker Season 2",
+        "aging": "13+",
+        "redirectUrl": "/anime/wind-breaker-season-2"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1173/92110l.jpg",
+        "name": "Attack on Titan Season 3",
+        "aging": "17+",
+        "redirectUrl": "/anime/attack-on-titan-season-3"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/9/59221l.jpg",
+        "name": "Attack on Titan OAD",
+        "aging": "17+",
+        "redirectUrl": "/anime/attack-on-titan-oad"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1765/135099l.jpg",
+        "name": "Demon Slayer Season 3",
+        "aging": "17+",
+        "redirectUrl": "/anime/demon-slayer-season-3"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1908/120036l.jpg",
+        "name": "Demon Slayer Season 2",
+        "aging": "17+",
+        "redirectUrl": "/anime/demon-slayer-season-2"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1121/119044l.jpg",
+        "name": "Jujutsu Kaisen 0",
+        "aging": "17+",
+        "redirectUrl": "/anime/jujutsu-kaisen-0"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/10/47347l.jpg",
+        "name": "Attack on Titan",
+        "aging": "17+",
+        "redirectUrl": "/anime/attack-on-titan"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1438/141816l.jpg",
+        "name": "Wind Breaker",
+        "aging": "13+",
+        "redirectUrl": "/anime/wind-breaker"
+      },
+      {
+        "imgUrl": "https://cdn.myanimelist.net/images/anime/1673/107657l.jpg",
+        "name": "Fire Force Season 2",
+        "aging": "13+",
+        "redirectUrl": "/anime/fire-force-season-2"
+      }]
+  },
+  {
+    "type": "news",
+    "heading": "Spy x Family S2 has arrived! \nWatch now",
+    "detail": "With her ability to read minds, Anya Forger is the only one who knows the true identities of her unconventional family.",
+    "redirectUrl": "/anime/spy-x-family-season-2",
+    "imgUrl": "https://cdn.myanimelist.net/images/anime/1426/139388l.jpg",
+    "redirectText": "Watch now "
+  },
+  {
+    "type": "news",
+    "heading": "New Season for Solo Leveling Season 2: Arise from the Shadow",
+    "detail": "Sung Jin-Woo, dubbed the weakest hunter of all mankind, grows stronger by the day with the supernatural powers he has gained.",
+    "redirectUrl": "/anime/solo-leveling-season-2-arise-from-the-shadow",
+    "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2025/03/solo-levelling-season-2-finale-993c204.jpg?quality=90&resize=980,654"
+  }
+]

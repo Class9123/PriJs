@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root {
+  min-width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  @apply bg-black text-white overflow-x-hidden no-scrollbar min-h-screen
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+
+
+.menu__icon {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: inherit;
+  width: 7vw;
+  height: 7vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform .4s;
+} 
+
+.menu__icon span {
+  width: 100%;
+  height: 0.7vw;
+  border-radius: 0.5vw;
+  background-color: white;
+  box-shadow: 0 .5px 2px 0 hsla(0, 0%, 0%, .2);
+  transition: width .4s, transform .4s, background-color .4s;
+}
+
+.menu__icon :nth-child(1) {
+  width: 75%;
+}
+
+.menu__icon :nth-child(2) {
+  width: 50%;
+}
+
+.menu__icon:hover {
+  transform: rotate(-90deg);
+}
+
+.menu__icon:hover span {
+  width: .25rem;
+  transform: translateX(10px);
+}
+
+
+.bar {
+  z-index: 11;
+  width: 6vw;
+  height: 2.3vw;
+  border-radius: 17px;
+  background-color: gray;
+  overflow: hidden;
+}
+
+.bar:first-child {
+  width: 13vw;
+}
+
+.bar-animate {
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background-color: #f88604;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  margin-inline: -5vw;
+  padding: 0 25vw;
+}
+
+.card-img-wrap{
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: center;
+}
+
+.card-img-wrap:last-child{
+  margin-right: 10vw;
+}
+
+.card-img {
+  border-radius: 10px;
+  min-width: 48vw; 
+  height: 35vh;
+  filter: brightness(0.4);
+  transform: scale(0.96);
+}
+
+.heading{
+  color: white;
+  font-size: 6vw;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.subheading{
+  font-size: 3.5vw;
+  color: #6b7280;
+  margin-bottom: 1vh;
+  margin-top: 0.2vh;
+  line-height: normal;
+}
+
+.name{
+  margin-top: 0.6vh;
+  line-height: 1.1;
+  font-weight: bold;
+  font-size: 4vw;
+  color: #d1d5db;
+}
+
+.name-more{
+  font-weight: bold;
+  font-size: 3vw;
+  color: #6b7280;
+}
