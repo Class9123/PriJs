@@ -19,15 +19,17 @@
 ## 📦 Installation
 
 ```bash
-npm install priy
+pnpx create-priy-app priy
+cd priy
+pnpm install 
 ```
 
-or
-
+or 
 ```bash
-pnpm add priy
+npx create-priy-app priy
+cd priy
+npm install 
 ```
-
 ---
 
 ## ✨ Example `.pri` File
