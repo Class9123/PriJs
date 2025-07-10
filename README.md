@@ -1,46 +1,47 @@
-# Priy (`priy`)
+# ![Priy Icon](https://iili.io/FErz9lS.png) Priy (`priy`)
 
-**Priy** is a blazing-fast reactive frontend framework that compiles `.pri` components into highly optimized DOM updates. It offers fine-grained reactivity, declarative conditional rendering, and looping — all within a clean HTML-first component format.
+**Priy** is a blazing-fast reactive frontend framework that compiles `.pri` components into highly optimized DOM updates. It offers fine-grained reactivity, declarative rendering, and clean HTML-first syntax — all with minimal runtime overhead.
 
 ---
 
 ## 🚀 Features
 
-* ✅ Fine-grained reactive state management (like SolidJS)
-* ✅ Logic and markup together in `.pri` files
-* ✅ Declarative `<If>`, `<Else>`, and  `<Repeat>`
-* support
-* ✅ Powerful hooks: `useState`, `useEffect`, `useMemo`
-* ✅ Support for writing your own custom hooks
-* ✅ Full Vite plugin for seamless `.pri` integration
+- ✅ Fine-grained reactivity (like SolidJS)
+- ✅ HTML + logic together in `.pri` files
+- ✅ Declarative rendering with `<If>`, `<Else>`, and `<Repeat>`
+- ✅ Built-in hooks: `useState`, `useEffect`, `useMemo`
+- ✅ Support for custom hooks
+- ✅ Vite plugin support for native `.pri` compilation
 
 ---
 
 ## 📦 Installation
 
+With **pnpm**:
+
 ```bash
 pnpx create-priy-app priy
 cd priy
-pnpm install 
+pnpm install
 ```
 
-or 
-```bash
+With npm:
+
+```bash 
 npx create-priy-app priy
 cd priy
-npm install 
+npm install
 ```
+
 ---
 
-## ✨ Example `.pri` File
+✨ Example .pri Component
 
 ```js
 import { useState } from "priy";
 
 const [count, setCount] = useState(0);
-setInterval(() => {
-  setCount(count() + 1);
-}, 1000);
+setInterval(() => setCount(count() + 1), 1000);
 
 <Component>
   <p>Count is {count()}</p>
@@ -56,19 +57,7 @@ setInterval(() => {
 
 ---
 
-## 🔁 Loops
-
-Priy supports declarative looping with the `<Repeat>` tag.
-
-### Syntax:
-
-```html
-<Repeat for="item in items()">
-  <p>{item}</p>
-</Repeat>
-```
-
-### Example:
+🔁 Loops with <Repeat>
 
 ```js
 const [items, setItems] = useState(["apple", "banana", "cherry"]);
@@ -82,54 +71,46 @@ const [items, setItems] = useState(["apple", "banana", "cherry"]);
 </Component>
 ```
 
-This creates a reactive list that updates only the necessary parts when `items` changes.
+Only the necessary parts of the DOM update when items change.
+
 
 ---
 
-## 🧠 Reactivity & Hooks
-
-Priy provides a set of hooks similar to React and Solid, but optimized for DOM-first updates.
-
-### `useState(initialValue)`
-
-Creates a reactive signal:
-
+🧠 Reactivity & Hooks
+```js
+useState(initialValue)
+```
 ```js
 const [count, setCount] = useState(0);
-count();        // Read value
-setCount(5);    // Update value
+count();        // Read
+setCount(5);    // Update
 ```
 
-### `useEffect(callback)`
-
-Runs a side effect when reactive dependencies used inside change:
-
+---
+```js
+useEffect(() => {})
+```
 ```js
 useEffect(() => {
   console.log("Count is:", count());
 });
 ```
+Priy automatically tracks dependencies used inside effects.
 
-Priy automatically tracks the dependencies inside `useEffect` and re-runs it only when they change.
 
-### `useMemo(fn)`
-
-Memoizes a computed value based on dependencies:
-
+---
+```js
+useMemo(() => {})
+```
 ```js
 const double = useMemo(() => count() * 2);
 ```
+Efficient memoization — only recomputes when dependencies change.
 
-`useMemo` will only recompute when `count()` changes, and caches the result for performance.
 
 ---
 
-## 🧩 Creating Custom Hooks
-
-Custom hooks in Priy are just functions that use other hooks.
-
-### Example:
-
+🧩 Create Custom Hooks
 ```js
 import { useState, useEffect } from "priy";
 
@@ -143,18 +124,15 @@ function useTimer() {
 
   return time;
 }
-
-const time = useTimer();
 ```
+Custom hooks help you encapsulate logic and reuse across .pri files.
 
-Custom hooks allow composition of logic and reuse across `.pri` files.
 
 ---
 
-## 📄 Using with Vite
+⚙️ Using with Vite
 
-In `vite.config.js`:
-
+Add this to your vite.config.js:
 ```js
 import { Scan } from "priy/plugin";
 
@@ -162,26 +140,82 @@ export default {
   plugins: [Scan()]
 };
 ```
+This enables .pri compilation at build time with HMR support during dev.
 
-Now you can write `.pri` components in your project, and they will be compiled at build time.
 
 ---
 
-## 📝 License
+🧪 Upcoming Features
+
+ ⚠️ Note: Priy is under active development — some features are experimental and more are coming soon!
+
+
+
+Planned:
+
+$if, $for, $show shorthand syntax
+
+on:click directive support
+
+Directive customization & better compiler output
+
+
+
+---
+
+👤 Author
+
+Made with ❤️ by Jay Govind Mahato
+
+🐙 GitHub: github.com/Class9123
+
+💬 Discord (DM): Class9123
+
+📦 NPM: Priy on npm
+
+
+
+---
+
+🤝 Contributing
+
+Want to improve Priy?
+
+1. Fork the repo: https://github.com/Class9123/Priy-js
+
+
+2. Edit the files inside the priy-js/ directory
+
+
+3. Commit changes and make a pull request
+
+
+4. Once verified, they will be added to the GitHub repo and npm package
+
+
+
+
+---
+
+💬 Join the Community
+
+Got questions or want to contribute?
+
+Join our developer Discord server:
+
+
+ Ask questions, suggest features, or just chat about reactive frontend frameworks — all skill levels welcome!
+
+
+
+
+---
+
+📄 License
 
 MIT
 
+
 ---
 
-## 👤 Author
-
-Built by **Jay Govind Mahato** — open to feedback, improvements, and contributions!
-
-## How to contribute 
-
-To contribute in the **Priy** framework you have you clone the repo and edit the files inside the https://github.com/Class9123/PriJs/tree/main/priy-js 
-
-After completing the updates commit changes and make the pull request and later it will be verified and added to the GitHub repo and the npm Package .
-
-
-**Note :// This is under development now so some features might not support and many features afe going ti added, like $if ,$for ,$show , on:click(directives with customisation ) **
+ ℹ️ The README is still in progress. You can DM me on Discord or Reddit if you'd like help or want to learn more.
