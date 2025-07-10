@@ -61,7 +61,7 @@ Priy supports declarative looping with the `<Repeat>` tag.
 ### Syntax:
 
 ```html
-<Repeat of="items" each="item">
+<Repeat for="item in items()">
   <p>{item}</p>
 </Repeat>
 ```
@@ -73,7 +73,7 @@ const [items, setItems] = useState(["apple", "banana", "cherry"]);
 
 <Component>
   <ul>
-    <Repeat of="items" each="fruit">
+    <Repeat for="fruit in items()">
       <li>{fruit}</li>
     </Repeat>
   </ul>
@@ -165,12 +165,6 @@ Now you can write `.pri` components in your project, and they will be compiled a
 
 ---
 
-## 🧬 Coming Soon \:Custom components Tag
-
-The framework is being expanded to support  component composition using the tag with props and scoped logic — making it possible to reuse logic and UI declaratively.
-
----
-
 ## 📝 License
 
 MIT
@@ -185,4 +179,7 @@ Built by **Jay Govind Mahato** — open to feedback, improvements, and contribut
 
 To contribute in the **Priy** framework you have you clone the repo and edit the files inside the https://github.com/Class9123/PriJs/tree/main/priy-js 
 
-after completing the updates commit changes and make the request and later it will be verified and added to the GitHub repo and the npm Package 
+After completing the updates commit changes and make the pull request and later it will be verified and added to the GitHub repo and the npm Package .
+
+
+**Note :// This is under development now so some features might not support and many features afe going ti added, like $if ,$for ,$show , on:click(directives with customisation ) **
