@@ -167,13 +167,13 @@ Directive customization & better compiler output
 
 Made with ❤️ by Jay Govind Mahato
 
-🐙 GitHub: github.com/Class9123
+🐙 GitHub: [click here](https://github.com/Class9123/Priy-js/)
 
-💬 Discord (DM): Class9123
+💬 Discord (DM): [discord here](https://discord.gg/pujySDUt)
 
-📦 NPM: Priy on npm
+📦 NPM: [Npm here](https://www.npmjs.com/package/priy)
 
-
+✍️ Try it on codesandbox: [IDE here](https://codesandbox.io/p/devbox/plmq8h)
 
 ---
 
